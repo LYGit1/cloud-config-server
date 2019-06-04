@@ -1,9 +1,13 @@
 server:
   port: 8888
 spring:
+  profiles:
+    active: native
   cloud:
     config:
       server:
-        git:
-          uri: https://github.com/LYGit1/cloud-config-repo.git
-          searchPaths: cloud-config-repo
+#        git:
+#          uri: https://github.com/LYGit1/cloud-config-repo.git
+#          searchPaths: cloud-config-repo
+        native:
+          search-locations: /Users/leiyi/Documents/configTest
