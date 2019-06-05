@@ -12,10 +12,10 @@ spring:
         #          uri: https://github.com/LYGit1/cloud-config-repo.git
         #          searchPaths: cloud-config-repo
         native:
-          search-locations: /Users/leiyi/Documents/configTest
+          search-locations: E:/IdeaProjects/configTest
   zipkin:
     base-url: http://localhost:9411
 eureka:
   client:
     service-url:
-      defaultZone: http://peer2:8761/eureka,http://peer1:8762/eureka
+      defaultZone: http://peer2:8761/eureka
